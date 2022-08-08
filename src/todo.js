@@ -30,7 +30,7 @@ function Add(text){
 }
 function onItemDeleted(item){
 
-let fillteredItems = items.filter(it => it.id != item.id)
+let fillteredItems = items.filter(it => it.id !== item.id)
 setItems (fillteredItems);
 }
 
