@@ -8,6 +8,7 @@
 - [CSS]()
 - [REACT.JS]()
 
+<h1> <a href="https://todo-list-itens.netlify.app/"> Clique aqui para ver o site em ação </a></h1>
 
 <h1> Descrição </h1>
 <p> I made this activity table with functions to add, delete and mark as done and not done. 🚀 </p>
