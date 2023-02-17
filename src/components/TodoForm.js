@@ -1,3 +1,4 @@
+import { PlusCircle } from "phosphor-react";
 import React , { useState } from "react";
 
 
@@ -23,7 +24,9 @@ return(
     <form>
     <input onChange={handleChange} type="text" value={text}></input>
       
-    <button onClick={add}>Add</button>
+    <button onClick={add}>
+        Add
+    </button>
 </form>
 )
 

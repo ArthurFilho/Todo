@@ -51,7 +51,7 @@ setItems(updatedItems);
 return(<div className="container">
 
     <h1> Todo </h1>
-    <TodoForm onAddItem={Add} ></TodoForm>
+    <TodoForm onAddItem={Add} > </TodoForm>
     <List onDone={onDone} onItemDeleted={onItemDeleted} items={items}></List>
 </div> )
 
